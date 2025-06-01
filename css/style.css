@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe6ea;
+  font-family: 'Roboto', sans-serif;
+  color: #aa2c3b;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fddde6;
+  border-bottom: 4px solid #f9cdd8;
+}
+
+.logo {
+  height: 90px;
+}
+
+nav a {
+  margin: 20px;
+  text-decoration: none;
+  color: #aa2c3b;
+  font-weight: bold;
+  padding: 15px 30px;
+  background: linear-gradient(to bottom, #fff0f5, #f7c2cc);
+  border-radius: 50px;
+  box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background: linear-gradient(to bottom, #fcbfcf, #f58096);
+  color: white;
+  box-shadow: 0 4px 10px rgba(255, 120, 150, 0.4);
+  transform: scale(1.05);
+}
+
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.intro {
+  max-width: 50%;
+}
+
+.intro h1 span {
+  font-family: 'Great Vibes', cursive;
+  font-size: 48px;
+  color: #d33652;
+}
+
+.slogan {
+  letter-spacing: 10px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-info p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-info i {
+  margin-right: 10px;
+}
+
+.pedido-btn {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 14px 30px;
+  background: linear-gradient(to bottom, #fcbfcf, #f58096);
+  color: white;
+  font-size: 18px;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
+}
+
+.pedido-btn i {
+  margin-left: 10px;
+}
+
+.pedido-btn:hover {
+  background: #e8637f;
+}
+
+.heart-img img {
+  max-width: 600px;
+  height: auto;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon-circle {
+  width: 45px;
+  height: 45px;
+  background-color: #e27c99;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  box-shadow: inset 0 -2px 4px rgba(0,0,0,0.05);
+  overflow: hidden;
+}
+
+.icon-circle img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+
+.conteudo-pagina {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+  font-size: 30px;
+  color: #aa2c3b;
+  text-align: center;
+
+}
+
+.conteudo-pagina h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: 'Great Vibes', cursive;
+}
+
+.galeria {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+
+}
+
+.galeria img {
+  width: 200px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.produtos {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.produto {
+  width: 200px;
+  text-align: center;
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.formulario-pedido {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario-pedido input,
+.formulario-pedido textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #f7b6c4;
+  border-radius: 8px;
+}
+
+.formulario-pedido button {
+  padding: 12px;
+  background-color: #f58096;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.formulario-pedido button:hover {
+  background-color: #e25b74;
+}
